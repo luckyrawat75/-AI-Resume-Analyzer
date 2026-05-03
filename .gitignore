@@ -1,0 +1,46 @@
+# ======================
+# Dependencies
+# ======================
+node_modules/
+
+# ======================
+# Environment Variables (IMPORTANT 🔐)
+# ======================
+.env
+.env.local
+.env.development
+.env.production
+
+# ======================
+# Uploads (your project)
+# ======================
+backend/uploads/
+
+# ======================
+# Logs
+# ======================
+logs/
+*.log
+
+# ======================
+# Build files
+# ======================
+dist/
+build/
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Editor files
+# ======================
+.vscode/
+.idea/
+
+# ======================
+# Cache
+# ======================
+.cache
